@@ -1,7 +1,7 @@
 # Cairn
 ![image](https://github.com/user-attachments/assets/03c61a16-7669-44ec-8280-617f433ad560)
 
-## 🪄 What is Cairn?
+##  What is Cairn?
 
 **Cairn** is a protocol and platform for **tracking the reuse and reproduction of scientific outputs in embodied AI, and for retroactively rewarding impactful, reproducible research**.
  
