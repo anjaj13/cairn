@@ -1,4 +1,6 @@
 # Cairn
+> Deployed at: https://octopus-app-5rjoy.ondigitalocean.app/ 
+
 ![image](https://github.com/user-attachments/assets/03c61a16-7669-44ec-8280-617f433ad560)
 
 ##  What is Cairn?
@@ -18,8 +20,9 @@
 ## Project Motivation 
 
 Scientific research, especially in embodied AI, faces systemic challenges:  
-- **Poor incentives** for long-term, impactful work: Academic recognition and funding systems tend to reward novelty and publication volume over real-world usability, long-term impact, and reproducibility.
+
 - **Reproducibility crisis**: A large portion of published research cannot be reliably reproduced, leading to wasted effort, erosion of trust, and slower scientific progress.  
+- **Poor incentives** for long-term, impactful work: Academic recognition and funding systems tend to reward novelty and publication volume over real-world usability, long-term impact, and reproducibility.
 - **Centralized funding**: Funding decisions are concentrated in a few institutions, which can limit diversity in research agendas and hinder innovation from underrepresented contributors.
 
 ![image](https://github.com/user-attachments/assets/4ea511fe-d537-448a-839d-b90f58030858)
@@ -27,11 +30,11 @@ Scientific research, especially in embodied AI, faces systemic challenges:
 ---
 ## How Cairn solves these problems
 
-We combined established concepts with a new system designed to provide verifiable evidence for scientific experiments:
+We combined established concepts with a new system (Proof of Reproducibility) designed to provide verifiable evidence for scientific experiments:
 
-- **Decentralized Storage:** All research data, models, and proofs are stored on IPFS and Filecoin for permanence and verifiability.  
+- **Proof of Reproducibility (PoR):** Verifiable, cryptographically-secured evidence that experiments have been independently reproduced. 
+- **Decentralized Storage:** All research data, models, and proofs are stored on IPFS for permanence and verifiability. 
 - **Smart Contracts:** Manage project registration and proof of reproducibility, impact evaluation, and funding distribution on-chain.  
-- **Proof of Reproducibility (PoR):** Verifiable, cryptographically-secured evidence that experiments have been independently reproduced.  
 - **Hypercerts:** Tokenized certificates of impact, representing the value of scientific contributions.  
 - **Retroactive Funding:** Rewards are distributed based on actual impact and reproducibility, not just proposals.  
 - **DAO Governance:** Community-driven evaluation and funding decisions.
@@ -55,12 +58,6 @@ Cairn integrates Filecoin technology as a foundational layer to ensure decentral
 - **Crypto-based Payments with USDFC Stablecoin:**  
   Cairn uses the **USDFC stablecoin**, native to Filecoin’s ecosystem, to enable **stable, trustless, and efficient capital flows** between funders and researchers, supporting usage-based billing and retroactive funding models.
 
-- **Programmable Storage Logic:**  
-  Leveraging FVM’s unique ability to combine storage primitives with smart contract logic, Cairn implements automated funding distribution, impact evaluation, and Proof of Reproducibility verification on-chain.
-
-- **Developer-First Tooling:**  
-  The project integrates Filecoin’s SDKs and tooling to simplify interactions with Filecoin Services, including storage deal orchestration and payment flows.
-
   
 ## All Architecture & Integrations
 
@@ -71,8 +68,10 @@ Cairn integrates Filecoin technology as a foundational layer to ensure decentral
 | Smart Contracts   | Filecoin Virtual Machine (FVM) | Transparent, immutable project and funding logic     |
 | Impact Assets     | Hypercerts                   | Tokenized, tradable proof of  impact       |
 
+---
 
 ## Platform Features:
+
 - **Create Projects**  
   Register new research efforts on-chain, minting Hypercert impact assets to represent contributions
 - **Record Outputs**  
@@ -80,10 +79,10 @@ Cairn integrates Filecoin technology as a foundational layer to ensure decentral
 - **Verify Reproducibility**  
   Submit PoRs—cryptographically hashed experiment logs, video proofs, and receipts—stored on IPFS and immortalized on-chain.
 - **Evaluate Impact**  
-  A DAO of scientists, funders, and evaluators votes on each project’s impact tier.
+  Designated scientists, funders, and evaluators vote on each project’s impact tier. In the future implementations there will be an option of DAO voting.
 - **Retroactive Funding**  
   Distribute USDFC funds proportionally to impact-asset holders based on verified impact.
-
+  
 ---
 
 ## How Cairn Works
